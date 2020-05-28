@@ -1,4 +1,4 @@
-import { getUsers } from '../../../services/users/getUsers';
+import { getUsers } from '~/services/users/getUsers';
 
 export const fetchUsers = page => {
     return dispatch => {

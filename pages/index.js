@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { decrementCounter, incrementCounter } from '../modules/redux/actions/counterActions';
-import { fetchUsers } from '../modules/redux/actions/usersActions';
+import { decrementCounter, incrementCounter } from '~/modules/redux/actions/counterActions';
+import { fetchUsers } from '~/modules/redux/actions/usersActions';
 
 const API_URL = process.env.API_URL;
 
