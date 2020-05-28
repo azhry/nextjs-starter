@@ -1,7 +1,8 @@
 {
-  "name": "tutur-mweb",
+  "name": "nextjs-starter",
   "version": "1.0.0",
-  "main": "index.js",
+  "author": "Azhary Arliansyah",
+  "main": "ssh-server.js",
   "license": "MIT",
   "scripts": {
     "dev": "node ssr-server.js",
