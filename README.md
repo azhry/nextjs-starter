@@ -23,9 +23,9 @@ yarn deploy:prod
 `
 
 ## Integrate with Firebase Analytics
-This starter code has Firebase Analytics installed for you, with web vital metrics being logged to firebase on `pages/_app.js`.
+This starter code also has Firebase Analytics installed for you, with web vital metrics being logged to firebase on `pages/_app.js`.
 You must provide your firebase configurations on `.env.development` or `.env.production` file like this
-`
+
 <pre>
 NEXT_PUBLIC_FIREBASE_API_KEY=&lt;Your firebase API KEY&gt;
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=&lt;Your firebase AUTH DOMAIN&gt;
@@ -36,9 +36,8 @@ NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=&lt;Your firebase MESSAGING SENDER ID&g
 NEXT_PUBLIC_FIREBASE_APP_ID=&lt;Your firebase APP ID&gt;
 NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=&lt;Your firebase MEASUREMENT ID&gt;
 </pre>
-`
 
-The default metrics being logged are FCP, LCP, CLS, FID, and TTFD on every page. For example, if you access `http://localhost:3000`, you can see on your analytics dashboard on StreamView an event named `FCP_/`. 
+The default metrics being logged are FCP, LCP, CLS, FID, and TTFD on every page (See: [Web Vitals](https://web.dev/vitals/#core-web-vitals)). For example, if you access `http://localhost:3000`, you can see on your analytics dashboard on StreamView an event named `FCP_/`. 
 
 This log will be useful if you want to monitor your website performance.
 
