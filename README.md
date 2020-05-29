@@ -39,7 +39,9 @@ NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=&lt;Your firebase MEASUREMENT ID&gt;
 
 The default metrics being logged are FCP, LCP, CLS, FID, and TTFD on every page (See: [Web Vitals](https://web.dev/vitals/#core-web-vitals)). For example, if you access `http://localhost:3000`, you can see on your analytics dashboard on StreamView an event named `FCP_/`. 
 
-This log will be useful if you want to monitor your website performance.
+![alt text](https://github.com/azhry/nextjs-starter/blob/master/assets/images/firebase.JPG?raw=true)
+
+These logs will be useful if you want to track and monitor your website performance.
 
 
 <hr/>
