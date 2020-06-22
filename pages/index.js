@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import { decrementCounter, incrementCounter } from '~/modules/redux/actions/counterActions';
 import { fetchUsers } from '~/modules/redux/actions/usersActions';
 
+import DummyImage from '~/assets/images/dummy.svg';
+
 const API_URL = process.env.API_URL;
 
 class App extends React.Component {
@@ -23,6 +25,7 @@ class App extends React.Component {
         return (
             <div>
                 <div className="p-4 shadow rounded bg-white">
+                    <img src={DummyImage}/>
                     <h1 className="text-purple-500 leading-normal">Next.js</h1>
                     <p className="text-gray-500">with Tailwind CSS</p>
                 </div>
