@@ -24,7 +24,9 @@
     "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
+    "mini-svg-data-uri": "^1.2.3",
     "postcss-preset-env": "^6.7.0",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.4.6",
+    "url-loader": "^4.1.0"
   }
 }
